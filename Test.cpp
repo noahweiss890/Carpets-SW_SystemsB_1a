@@ -4,9 +4,9 @@
  * 
  * IMPORTANT: Please write more tests - the tests here are only for example and are not complete.
  *
- * AUTHORS: <Please write your names here>
+ * AUTHORS: Noah Weiss TZ: 326876786
  * 
- * Date: 2021-02
+ * Date: 2022-03
  */
 
 #include "doctest.h"
