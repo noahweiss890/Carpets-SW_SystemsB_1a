@@ -7,7 +7,7 @@ using namespace std;
 namespace ariel {
 	string mat(int col, int row, char symb1, char symb2) {
 		if(col < 0 || col%2 != 1 || row < 0 || row%2 != 1) {
-            return "bad";
+            throw invalid_argument("Mat size is always odd!");
         }
 
 		char arr[row][col];
