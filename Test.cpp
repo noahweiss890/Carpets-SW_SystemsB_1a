@@ -156,7 +156,7 @@ TEST_CASE("Big input") {
 													"+++"));
 
 	// medium square
-	CHECK(nospaces(mat(51, 51, '0', '+')) == nospaces(  "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\n"
+	CHECK(nospaces(mat(51, 51, 'O', '+')) == nospaces(  "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\n"
 														"O+++++++++++++++++++++++++++++++++++++++++++++++++O\n"
 														"O+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO+O\n"
 														"O+O+++++++++++++++++++++++++++++++++++++++++++++O+O\n"
